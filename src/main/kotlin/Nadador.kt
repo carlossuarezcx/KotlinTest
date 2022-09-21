@@ -1,4 +1,4 @@
-open class Nadador: Deportista()  {
-    var estilo:String = ""
-    var velocidad:String = ""
+open class Nadador(nombre:String, estatura:Float, peso:Float, edad:Int, estilo:String, velocidad:String ): Deportista(nombre, estatura, peso, edad) {
+
+
 }

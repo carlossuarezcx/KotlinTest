@@ -1,7 +1,4 @@
 fun main(){
-    val ciclista = Ciclista()
-    ciclista.nombre="Carlos"
-    ciclista.tipo_bici= "Montaña"
-    ciclista.velocidad= " 100km/h"
+    val ciclista = Ciclista("Celestín", 172F,62F,23,"Montaña","100kmh")
     println(ciclista.saludar())
 }
